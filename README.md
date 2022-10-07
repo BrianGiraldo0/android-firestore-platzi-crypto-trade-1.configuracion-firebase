@@ -1,0 +1,1 @@
+# android-firestore-platzi-crypto-trade-1.configuracion-firebase
