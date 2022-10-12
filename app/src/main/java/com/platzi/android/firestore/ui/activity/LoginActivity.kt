@@ -14,15 +14,7 @@ import com.platzi.android.firestore.network.Callback
 import com.platzi.android.firestore.network.FirestoreService
 import com.platzi.android.firestore.network.USERS_COLLECTION_NAME
 import kotlinx.android.synthetic.main.activity_login.*
-import kotlinx.android.synthetic.main.activity_trader.*
 import java.lang.Exception
-
-/**
- * @author Santiago Carrillo
- * github sancarbar
- * 1/29/19.
- */
-
 
 const val USERNAME_KEY = "username_key"
 
@@ -62,13 +54,8 @@ class LoginActivity : AppCompatActivity() {
                     }
 
                 })
-                val user = User()
-                user.username = username
-                saveUserAndStartMainActivity(user, view)
-                startMainActivity(username)
             }else{
                 showErrorMessage(view)
-                view.isEnabled = true
                 view.isEnabled = true
             }
         }

@@ -1,7 +1,6 @@
 package com.platzi.android.firestore.network
 
 import java.lang.Exception
-import com.google.firebase.firestore.core.UserData.ParsedUpdateData
 
 interface RealtimeDataListener<T>{
 
