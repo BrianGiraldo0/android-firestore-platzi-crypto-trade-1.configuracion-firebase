@@ -68,7 +68,7 @@ class TraderActivity : AppCompatActivity(), CryptosAdapterListener {
                             for (crypto in cryptoList!!) {
                                 val cryptoUser = Crypto()
                                 cryptoUser.name = crypto.name
-                                cryptoUser.available = crypto.available
+                                cryptoUser.available = 0
                                 cryptoUser.imageUrl = crypto.imageUrl
                                 userCryptoList.add(cryptoUser)
                             }
